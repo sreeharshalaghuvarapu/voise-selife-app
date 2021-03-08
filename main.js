@@ -55,7 +55,7 @@ Webcam.set({
 
 
 
-function take_snapshot()
+function take_selfie()
 {
     Webcam.snap(function(data_uri) {
         document.getElementById("result").innerHTML = '<img id="selifie_image" src"'+ data_uri +'">'
